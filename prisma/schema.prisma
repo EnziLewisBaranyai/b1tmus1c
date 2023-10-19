@@ -13,6 +13,7 @@ datasource db {
   shadowDatabaseUrl = env("POSTGRES_URL_NON_POOLING") // used for migrations
 }
 
+// sample table 
 model User {
   id       Int    @id @default(autoincrement())
   email    String @unique
