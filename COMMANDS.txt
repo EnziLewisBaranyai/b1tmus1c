@@ -31,6 +31,10 @@
 - 'npm install -g prisma': to install prisma
 
 - 'npx prisma studio': opens Prisma Studio, a modern database GUI to view and edit your data.
+- 'npx primsa generate': whenever you make changes to your prisma schema, you must run a migration, 
+                         then run prisma generate to update the generated type generations, which 
+                         live in the node_modules/.prisma/client directory.
+
 
 - 'npx prisma db push': pushes the Prisma schema state to the database without using migrations
 - 'npx prisma db pull': introspects the database and saves the result to the Prisma schema.
@@ -38,6 +42,5 @@
 - 'npx prisma format': formats the 'schema.prisma' file
 
 - 'npx prisma help': show usage information about a command or the CLI
-
 
 
