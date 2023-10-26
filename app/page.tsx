@@ -24,7 +24,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-black">
       <div className="container">
         <Link to="/" className="navbar-brand">
-          <img src="/logo.png" alt="B1tMus1c" width="40" height="40" />
+          <img src="/logo.png" alt="B1tMus1c" width="60" height="60" />
         </Link>
         <button
           className="navbar-toggler"
