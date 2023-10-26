@@ -1,9 +1,10 @@
 ! make sure you have Node.js and npm installed on your laptops. 
+! make sure you also have npx (npm install npx)
 ! also install Docker and make sure it is running when using Docker commands
 ! i recommended intalling Better Comments extension so that this text is easier to see
 
 * NEXT.js
-- installing npm on your machines varies, so do quick google search to see how
+- installing npm on your machines varies, so do quick google search to see ho = sudo 
 
 - 'npm run dev': starts the Next.js app in development mode. it will hot-reload when you make changes
 - 'npm run build': will produce a production-ready build of the app
