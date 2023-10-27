@@ -7,10 +7,3 @@
     color: orange;
   }
 
-.background {
-  background-image: url('/public/BackSplash.jpg'); /* Replace with the actual path to your image */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh; /* Set the desired height for the background */
-}
