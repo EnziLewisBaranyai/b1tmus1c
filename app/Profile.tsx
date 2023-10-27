@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "./custom.css";
 import React from "react";
 import { Link } from "react-router-dom";
+import ProfileForm from "@/components/ProfileForm";
 
 function Profile() {
   return (
@@ -16,7 +17,9 @@ function Profile() {
           style={{ height: "100%" }}
         >
           <div className="col-md-6 text-center">
-            <p className="lead">Profile Feature Coming Soon...</p>
+          <h1>Your Profile</h1>
+          <p>Edit your profile information:</p>
+          <ProfileForm />
           </div>
         </div>
       </div>
