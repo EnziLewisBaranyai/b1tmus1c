@@ -2,13 +2,8 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "./custom.css";
 import React from "react";
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import img from '/public/BackSplash.jpg';
-=======
-// import { Link } from "react-router-dom";
-import Link from "next/link";
->>>>>>> d97b3a352e3e0c6618f99adbdec75cb682574deb
 
 function Home() {
   const backgroundImageStyle = {
